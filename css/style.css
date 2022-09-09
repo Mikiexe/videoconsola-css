@@ -16,9 +16,7 @@ body {
     height: 300px; */
     /* padding: 0 200px 0 200px; */
     overflow: visible;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 
 
 }
@@ -27,71 +25,110 @@ body {
     border-radius: 10%;
     display: flex;
     width: 300px;
-    height: 250px;
+    height: 280px;
     margin: 10px 0 10px 0;
     border: 3px solid rgb(97, 97, 239);
     transform: scaleX(1.1);
     overflow: visible;
     background-color: rgb(97, 97, 239);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .pantalla {
     border-radius: 3%;
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 220px;
     margin: auto;
-    outline: auto;
-    /* background-color: black; */
+    /* outline: auto; */
+    background-color: rgb(82, 82, 82);
 }
 
 .pantalla-led {
-    width: 250px;
-    height: 150px;
+    width: 180px;
+    height: 140px;
     outline: auto;
     margin: 20px auto 50px auto;
     background-image: linear-gradient(rgb(40, 101, 234), white);
 }
 
-/* PARTE IZQUIERDA DE LA CONSOLA CON SUS RESPECTIVAS BOTONERAS */
+
+/* #########PARTE IZQUIERDA DE LA CONSOLA CON SUS RESPECTIVAS BOTONERAS#########  */
+
+
 .left {
-    /* margin: 25px 0 0 auto; */
-    float: left;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(2deg);
     width: 100px;
     height: 250px;
     /* outline: auto; */
     margin-top: 20px;
     background-color: rgb(97, 97, 239);
-    border-radius: 10%;
+    border-radius: 55% 0 0 47%;
+    border-top: 10px solid silver;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
+
 .cruceta {
-    transform: scale(0.7);
+    transform: rotate(-2deg) scale(0.7);
     display: flex;
     outline: auto;
-    margin: 90px auto 0 auto;
+    margin: 90px 21px 0 auto;
     width: 75px;
     height: 75px;
 }
 
 .startselect {
-    position: flex;
+    display: flex;
+    flex-direction: column;
     width: 70px;
     height: 40px;
-    outline: auto;
+    /* outline: auto; */
     margin: 30px 10px 0 auto;
 }
 
 
+.startButton {
+    width: 80%;
+    height: 50%;
+    outline: auto;
+    border-radius: 25%;
+}
 
-/* PARTE DERECHA DE LA CONSOLA CON SUS RESPECTIVAS BOTONERAS */
+.startButton p {
+font-size: 15px;
+}
+
+
+.selectButton {
+    width: 80%;
+    height: 50%;
+    outline: auto;
+    border-radius: 25%;
+
+}
+.selectButton p {
+    font-size: 15px;
+}
+
+
+/* #########PARTE DERECHA DE LA CONSOLA CON SUS RESPECTIVAS BOTONERAS#########  */
+
+
 .right {
+    transform: rotate(-2deg);
     /* margin: 25px auto 0 0; */
     float: right;
-    width: 100px;
+    width: 99px;
     height: 250px;
     /* outline: auto; */
     margin-top: 20px;
     background-color: rgb(97, 97, 239);
-    border-radius: 10%;
-
+    border-radius: 0 55% 47% 0;
+    border-top: 10px solid silver;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
