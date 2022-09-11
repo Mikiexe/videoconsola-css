@@ -17,7 +17,6 @@ Primer proyecto del Bootcamp de GeeksHub en el curso de "Programación desde Zer
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Hola! Este es mi primer proyecto como front-end developer junior. Simulando un entorno de empresa, se nos ha requerido copiar el diseño de una consola de videojuegos usando código HTML y CSS, haciendo uso tambien de Flexbox para los elementos decorativos
 
