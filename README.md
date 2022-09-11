@@ -38,7 +38,7 @@ Todo el contenido de ilustraciones, imágenes, gráficos, logotipos, descargas d
 <!-- CONTACT -->
 ## Contact
 
-ma.holiszowski@gmail.com
+E-mail: ma.holiszowski@gmail.com
 
 Project Link: [https://mikiexe.github.io/videoconsola-css/](https://mikiexe.github.io/videoconsola-css/)
 
